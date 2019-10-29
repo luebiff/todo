@@ -1,0 +1,66 @@
+@import '_variabler.scss';
+
+.standard {
+    background-color:$standard-primary;
+    .container {
+        background-color: $standard-secondary;
+        #todoText {
+            background-color:$standard-secondary;
+        }
+        #submitBtn {
+            background-color:$standard-button;
+        }
+    }
+}
+.summer {
+    background-image: linear-gradient(to bottom right,rgb(209, 209, 79), $summer-primary);
+    .container {
+        background-color: $summer-secondary;
+        #todoText {
+            background-color:$summer-secondary;
+        }
+        #submitBtn {
+            background-color:$summer-button;
+        }
+    }
+}
+
+.winter {
+    background-image: linear-gradient(to bottom right, rgb(178, 219, 235), $winter-primary);
+    .container {
+        background-color: $winter-secondary;
+        #todoText {
+            background-color:$winter-secondary;
+        }
+        #submitBtn {
+            background-color:$winter-button;
+        }
+    }
+}
+
+.spring {
+    background-image: linear-gradient(to bottom right,#00ff7f,$spring-primary);
+    .container {
+        background-color: $spring-secondary;
+        #todoText {
+            background-color:$spring-secondary;
+        }
+        #submitBtn {
+            background-color:$spring-button;
+        }
+    }
+}
+
+.fall {
+    background-image: linear-gradient(to bottom right,rgb(231, 156, 58), $fall-primary);
+    .container {
+        background-color: $fall-secondary;
+        #todoText {
+            background-color:$fall-secondary;
+        }
+        #submitBtn {
+            background-color:$fall-button;
+        }
+    }
+}
+

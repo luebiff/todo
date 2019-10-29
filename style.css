@@ -1,0 +1,284 @@
+/* @import '_variabler.scss'; */
+.standard {
+  background-color: teal;
+}
+
+.standard .container {
+  background-color: #037070;
+}
+
+.standard .container #todoText {
+  background-color: #037070;
+}
+
+.standard .container #submitBtn {
+  background-color: cadetblue;
+}
+
+.summer {
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#d1d14f), to(#4dbd5c));
+  background-image: linear-gradient(to bottom right, #d1d14f, #4dbd5c);
+}
+
+.summer .container {
+  background-color: #508b58;
+}
+
+.summer .container #todoText {
+  background-color: #508b58;
+}
+
+.summer .container #submitBtn {
+  background-color: #1f6929;
+}
+
+.winter {
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#b2dbeb), to(#2c549e));
+  background-image: linear-gradient(to bottom right, #b2dbeb, #2c549e);
+}
+
+.winter .container {
+  background-color: #037070;
+}
+
+.winter .container #todoText {
+  background-color: #037070;
+}
+
+.winter .container #submitBtn {
+  background-color: cadetblue;
+}
+
+.spring {
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#00ff7f), to(#9bac53));
+  background-image: linear-gradient(to bottom right, #00ff7f, #9bac53);
+}
+
+.spring .container {
+  background-color: #037070;
+}
+
+.spring .container #todoText {
+  background-color: #037070;
+}
+
+.spring .container #submitBtn {
+  background-color: cadetblue;
+}
+
+.fall {
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#e79c3a), to(#a5691b));
+  background-image: linear-gradient(to bottom right, #e79c3a, #a5691b);
+}
+
+.fall .container {
+  background-color: #037070;
+}
+
+.fall .container #todoText {
+  background-color: #037070;
+}
+
+.fall .container #submitBtn {
+  background-color: cadetblue;
+}
+
+* {
+  border: 0;
+  margin: 0;
+}
+
+body {
+  background-color: teal;
+}
+
+.test {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100vh;
+}
+
+.container {
+  width: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #037070;
+  -webkit-box-shadow: 2px 3px 6px #013f3f;
+          box-shadow: 2px 3px 6px #013f3f;
+}
+
+.inputDiv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-bottom: 10px;
+}
+
+#todoText {
+  background-color: #037070;
+  border-radius: 3px;
+  color: black;
+  border: 1px solid black;
+  margin-right: 3px;
+  width: 170px;
+}
+
+::-webkit-input-placeholder {
+  color: black;
+}
+
+:-ms-input-placeholder {
+  color: black;
+}
+
+::-ms-input-placeholder {
+  color: black;
+}
+
+::placeholder {
+  color: black;
+}
+
+#submitBtn {
+  border: 1px solid black;
+  border-radius: 3px;
+  background-color: cadetblue;
+}
+
+.todoItem {
+  list-style-type: none;
+  border: 1px solid black;
+  border-radius: 4px;
+  width: 200px;
+  padding: 5px;
+  margin-bottom: 2px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  background-color: #157979;
+}
+
+.todoItem:hover {
+  background-color: #0c6464;
+}
+
+.fa-trash {
+  margin-right: 5px;
+}
+
+ul {
+  padding: 0;
+}
+
+.fa-hamburger {
+  padding: 10px;
+  color: white;
+}
+
+.divtest {
+  display: none;
+  background-color: black;
+  color: white;
+  width: 300px;
+  padding: 20px;
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+
+.ultest {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.ultest button {
+  margin-bottom: 5px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.checkClass {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background-color: red;
+  border: 1px solid black;
+  border-radius: 3px;
+  padding: 5px;
+  width: 15px;
+  height: 15px;
+  margin-right: 10px;
+}
+
+.checkClass:checked {
+  background-color: green;
+}
+
+.todoNav {
+  position: relative;
+}
+
+.todoDrop {
+  background-color: #ac4646;
+  border: 1px solid black;
+  border-radius: 3px;
+  display: none;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 10px;
+  position: absolute;
+}
+
+.td {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.editBtn {
+  border: 1px solid black;
+  border-radius: 3px;
+  background-color: cadetblue;
+}
+/*# sourceMappingURL=style.css.map */

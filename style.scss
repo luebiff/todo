@@ -1,0 +1,158 @@
+/* @import '_variabler.scss'; */
+@import '_themeColor.scss';
+
+* {
+    border: 0;
+    margin:0;
+}
+
+body {
+    background-color: $standard-primary
+}
+
+h1 {
+   
+}
+
+.test {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: $standard-secondary;
+    box-shadow: 2px 3px 6px rgb(1, 63, 63);
+    
+}
+.inputDiv {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+#todoText {
+    background-color: $standard-secondary;
+    border-radius: 3px;
+    color: black;
+    border: 1px solid black;
+    margin-right: 3px;
+    width:170px ;
+}
+::placeholder {
+    color: black;
+  }
+
+  #submitBtn {
+      border: 1px solid black;
+      border-radius: 3px;
+      background-color: $standard-button;
+  }
+
+  
+
+.todoItem {
+    list-style-type: none;
+    border: 1px solid black;
+    border-radius: 4px;
+    width: 200px;
+    padding: 5px;
+    margin-bottom: 2px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    background-color: rgb(21, 121, 121);
+    &:hover {
+        background-color:rgb(12, 100, 100);
+    }
+}
+
+
+.fa-trash {
+    margin-right: 5px;;
+    
+}
+ul {
+    padding:0;
+}
+
+.fa-hamburger {
+    padding: 10px;
+    color: white;
+}
+
+.divtest {
+    display: none;
+    background-color: black;
+    color: white;
+    width: 300px;
+    padding: 20px;
+    border: 1px solid grey;
+    border-radius: 5px; 
+    
+     
+}
+
+.ultest {
+    display: flex;
+    flex-direction: column;
+}
+
+.ultest button {
+    margin-bottom: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.checkClass {
+    appearance: none; // tar bort default design
+    background-color: red;
+    border:1px solid black;
+    border-radius: 3px;;
+    padding: 5px;
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+
+    &:checked {
+        background-color: green;
+        
+    }
+    
+}
+
+.todoNav {
+    position: relative;
+}
+
+.todoDrop {
+    //display: none;
+    background-color: rgb(172, 70, 70);
+    border: 1px solid black;
+    border-radius: 3px;
+    display: none;
+    flex-direction: column;
+    padding: 10px;
+    position: absolute;
+    
+}
+
+.td {
+    display: flex;
+    flex-direction: row;
+}
+
+.editBtn {
+    border: 1px solid black;
+      border-radius: 3px;
+      background-color: $standard-button;
+}
+
